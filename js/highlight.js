@@ -1,5 +1,5 @@
-var MAGIC_ID = '__react_highlighter_plugin_stylesheet__';
-var style = document.getElementById('__react_highlighter_plugin_stylesheet__');
+var MAGIC_ID = '__marko_highlighter_plugin_stylesheet__';
+var style = document.getElementById('__marko_highlighter_plugin_stylesheet__');
 
 if (style) {
     document.head.removeChild(document.getElementById(MAGIC_ID));
@@ -17,8 +17,8 @@ if (style) {
     style.sheet.insertRule(
         '[id^="' + parentId + '"] { \
         color: #000 !important; \
-        background-color: rgba(60, 181,236 , 0.4) !important; \
-        outline: dotted 1px firebrick !important; \
+        background-color: rgba(142, 198, 42, 0.1) !important; \
+        outline: dashed 1px  rgba(142, 198, 42, .78) !important; \
     }',
         0
     );

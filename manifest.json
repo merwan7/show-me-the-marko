@@ -7,17 +7,17 @@
   "version": "1.0",
 
   "icons": {
-    "600": "images/react.png",
-    "128": "images/react-128.png",
-    "112": "images/react-112.png",
-    "48": "images/react-48.png",
-    "16": "images/react-16.png"
+    "600": "images/marko.png",
+    "128": "images/marko-128.png",
+    "112": "images/marko-112.png",
+    "48": "images/marko-48.png",
+    "16": "images/marko-16.png"
   },
 
   "page_action": {
     "default_icon": {
-      "38": "images/react-38.png",
-      "19": "images/react-19.png"
+      "38": "images/marko-38.png",
+      "19": "images/marko-19.png"
     },
     "default_title": "Highlight Marko components!"
   },
