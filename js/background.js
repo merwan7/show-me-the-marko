@@ -3,7 +3,7 @@ function registerDeclaration() {
     chrome.declarativeContent.onPageChanged.addRules([{
       conditions: [
         new chrome.declarativeContent.PageStateMatcher({
-          css: ['[data-reactid]']
+          css: ['[id*="-w"]']
         })
       ],
       actions: [new chrome.declarativeContent.ShowPageAction() ]

@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Show me the React!",
-  "short_name": "See React!",
-  "description": "Highlight React components on the page.",
+  "name": "Show me the Marko!",
+  "short_name": "See Marko!",
+  "description": "Highlight Marko components on the page.",
   "version": "1.0",
 
   "icons": {
@@ -19,7 +19,7 @@
       "38": "images/react-38.png",
       "19": "images/react-19.png"
     },
-    "default_title": "Highlight React components!"
+    "default_title": "Highlight Marko components!"
   },
 
   "background": {
