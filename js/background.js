@@ -3,7 +3,7 @@ function registerDeclaration() {
     chrome.declarativeContent.onPageChanged.addRules([{
       conditions: [
         new chrome.declarativeContent.PageStateMatcher({
-          css: ['#markoWidgets']
+          css: ['[id^="w0"], [id*="-w0"], #markoWidgets'] // this is risky, but I can't use #markoWidgets because it's display: none
         })
       ],
       actions: [new chrome.declarativeContent.ShowPageAction() ]
