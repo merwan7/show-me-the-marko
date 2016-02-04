@@ -8,7 +8,7 @@ if (style) {
     style.setAttribute('id', MAGIC_ID);
     document.head.appendChild(style);
 
-    var widgetIdList = document.querySelector('#markoWidgets');
+    var widgetIdList = document.querySelector('#markoWidgets') || {};
     var dataIds = widgetIdList.getAttribute('data-ids') || '';
     var parentId = dataIds.match("[^,]+$");
 
